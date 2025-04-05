@@ -58,3 +58,22 @@
   overflow-x: hidden;
   overflow-y: hidden;
 }
+
+
+.readMoreButton {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background: none;
+  border: none;
+  color: #0066cc;
+  cursor: pointer;
+  padding: 4px;
+  font-size: 12px;
+  text-align: left;
+  width: 100%;
+}
+
+.readMoreButton:hover {
+  text-decoration: underline;
+}
