@@ -1,0 +1,60 @@
+.calendaryDay > a {
+  color: #333;
+  display: block;
+  cursor: pointer;
+  text-align: right;
+  text-decoration: underline;
+}
+
+.calendarDayEvents {
+  position: absolute;
+  top: 25px;
+}
+
+.calendarDayEvent {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: calc(89%);
+  color: #333;
+  padding-right: 5px;
+  text-align: left;
+}
+
+.calendarDayEvent a {
+  display: inline-block;
+  font-size: 12px;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #333;
+  padding: 3px 6px;
+  border-radius: 4px;
+  margin-bottom: 3px;
+}
+
+.calendarDayEvent a:hover {
+  background-color: #f00;
+  color: #fff;
+}
+
+.dayInnerEvents > div {
+  overflow: hidden;
+  width: 100%;
+  text-align: left;
+}
+
+.calendarDayEvent .eventTime {
+  font-weight: normal;
+  display: inline-block;
+  margin-right: 3px;
+}
+.calendarDayEvent .eventTitle {
+  font-weight: 600;
+  flex-grow: 1;
+  flex-shrink: 1;
+  font-weight: 700;
+  min-width: 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
